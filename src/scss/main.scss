@@ -1,0 +1,10 @@
+body {
+    width: 98.2vw;
+    height: 100vh;
+
+    margin: 0;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+}
+
+@import "../common.blocks/container/container.scss";
