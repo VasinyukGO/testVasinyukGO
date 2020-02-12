@@ -2,6 +2,8 @@
     width: 63.7%;
     height: 100%;
     margin: auto;
-    background: #000;
-    opacity: 0.2;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
 }
+
+@import "./_title/container_title.scss";
