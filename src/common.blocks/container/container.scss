@@ -1,9 +1,8 @@
 .container {
     width: 63.7%;
-    height: 100%;
+    height: 80%;
     margin: auto;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
 }
 
 @import "./_title/container_title.scss";
+@import "./_mainButtons/container_mainButtons.scss";

@@ -3,7 +3,7 @@ body {
     height: 100vh;
 
     margin: 0;
-    background-image: url(../img/bg1.png);
+    background-image: url(../uploads/bg1.png);
     background-size: cover;
 }
 
@@ -14,3 +14,4 @@ header {
 
 @import "../common.blocks/container/container.scss";
 @import "../common.blocks/title/title.scss";
+@import "../common.blocks/button/button.scss";

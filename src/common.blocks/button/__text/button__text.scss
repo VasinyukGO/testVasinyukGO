@@ -1,0 +1,11 @@
+.button__text {
+    position: absolute;
+    top: 56.8%;
+    left: 33.7%;
+    font-weight: normal;
+    font-size: 1.38vw;
+    letter-spacing: 0.0001em;
+}
+
+@import "./_invest/button__text_invest.scss";
+@import "./_attract/button__text_attract.scss";
