@@ -1,17 +1,26 @@
 body {
-    width: 98.2vw;
+    width: 100vw;
     height: 100vh;
-
     margin: 0;
-    background-image: url(../uploads/bg1.png);
-    background-size: cover;
 }
 
 header {
     width: 100%;
     height: 100%;
+    background-image: url(../uploads/bg1.png);
+    background-size: cover;
+    display: none;
+}
+
+article {
+    width: 100%;
+    height: 100%;
+    background-image: url(../uploads/bg2.png);
+    background-size: cover;
+    //display: none;
 }
 
 @import "../common.blocks/container/container.scss";
 @import "../common.blocks/title/title.scss";
 @import "../common.blocks/button/button.scss";
+@import "../common.blocks/article-nav/article-nav.scss";
