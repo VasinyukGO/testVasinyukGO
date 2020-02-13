@@ -1,0 +1,24 @@
+.article__continue-button {
+    text-decoration: none;
+    color: white;
+    font-size: 0.95vw;
+    background: #009e82;
+    padding: 0.65vw 1.55vw;
+    border-radius: 4%;
+    transition: 0.3s;
+
+    &:hover {
+        cursor: pointer;
+        background: white;
+        color: #009e82;
+        border: 1px solid #009e82;
+        box-shadow: 0px 0px 2px 1px;
+    }
+
+    &:active {
+        color: white;
+        background: #009e82;
+        border: none;
+        box-shadow: inset 0px 0px 2px 1px;
+    }
+}

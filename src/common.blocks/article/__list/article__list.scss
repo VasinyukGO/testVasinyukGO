@@ -1,0 +1,28 @@
+.article__list {
+    margin: 0;
+    margin-top: 4.5%;
+    padding: 0;
+    padding-left: 0.2%;
+
+    li {
+        position: relative;
+        list-style-type: none;
+        margin-bottom: 2.9%;
+        padding-left: 4.4%;
+        font-size: 1vw;
+    }
+
+    @for $i from 1 through 10 {
+        & li:nth-child(#{$i}):before {
+            content: "#{$i}";
+            position: absolute;
+            color: #3eb499;
+            font-size: 1.7vw;
+            left: 0;
+            top: -30%;
+        }
+    }
+}
+
+@import "./_fourthItemCorrected/article__list_fourthItemCorrected.scss";
+
