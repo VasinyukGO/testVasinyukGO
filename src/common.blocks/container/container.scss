@@ -1,10 +1,9 @@
 .container {
     width: 63.7%;
-    height: 80%;
     margin: auto;
 }
 
-@import "./_title/container_title.scss";
-@import "./_headerButtons/container_headerButtons.scss";
+@import "./__title/container__title.scss";
+@import "./__headerButtons/container__headerButtons.scss";
 @import "./__article/container__article.scss";
 @import "./__article-button/container__article-button.scss";

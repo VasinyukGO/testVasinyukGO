@@ -9,9 +9,9 @@ html(lang="en")
     body
         header
             .container
-                .container.container_title
+                .container__title
                     h1.title Выберите способ заработка
-                .container.container_headerButtons
+                .container__headerButtons
                     button.button
                         img(src="../img/iconTrade.png", alt="иконка: монитор с графиком").button__image                        
                         .button__text Торговать
@@ -30,7 +30,7 @@ html(lang="en")
                     button.main-nav__button Привлекать инвесторов
             .container
                 .container__article
-                    article.article
+                    article.article.article_visible
                         p.article__text 
                             | Если вы ищете пассивный доход и предпочитаете, чтобы деньги для
                             | вас зарабатывал тот, кто умеет это делать, тогда попробуйте ЛАММ.
@@ -46,4 +46,9 @@ html(lang="en")
                             li Вы можете отключиться от Управляющих в любой момент.
                         .container__article-button
                             a(href="#").article__continue-button Продолжить
-                        
+                    article.article
+                        h2.article__head Контент отсутствует
+                    article.article
+                        h2.article__head Контент отсутствует
+
+    script(src="../js/main.js")

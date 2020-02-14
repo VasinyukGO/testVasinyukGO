@@ -1,7 +1,9 @@
 .container__article {
-    width: 56%;
-    height: 100%;
+    width: 60%;
     margin-top: 6.6%;
     padding: 2px;
     padding-top: 1px;
+    display: flex;
+    justify-self: start;
 }
+
