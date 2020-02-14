@@ -1,0 +1,10 @@
+.body-background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../uploads/bg1.png);
+    background-size: cover;
+    transition-property: background-image;
+    transition-delay: 0.5s;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}

@@ -1,3 +1,7 @@
-.article_visible {
+.article_visible {    
     display: block;
+    transition: opacity 8s linear;
+    transition-delay: 5s;
+    opacity: 1;
+    
 }
