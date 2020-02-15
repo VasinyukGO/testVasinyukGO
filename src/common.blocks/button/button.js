@@ -28,8 +28,7 @@ export default function headerButton () {
             document.querySelector('.body-background').style.backgroundImage = 'url(/bg2.c3adff3f.png)';
             setTimeout(() => headerContainer.style.display = 'none', 1000);
             setTimeout(() => mainContainer.style.display = 'block', 1000);
-            //headerContainer.style.display = 'none';
-            //mainContainer.style.display = 'block';
+            setTimeout(() => mainContainer.classList.add("main-container_animate"), 1010);
 
             for (let h = 0; h < mainNavButtonArray.length; h++){
                 

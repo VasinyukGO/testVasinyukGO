@@ -5,4 +5,7 @@
     background-image: url(../uploads/bg2.png);
     background-size: cover;
     display: none;
+    opacity: 0;
 }
+
+@import "./_animate/main-container_animate.scss";
