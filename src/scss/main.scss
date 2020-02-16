@@ -2,13 +2,26 @@ body {
     margin: 0;
 }
 
-.mobile {
-    //display: none;
+@media (max-width: 1024px) {
+    .mobile {
+        display: block;
+    }
+    
+    .desktop {
+        display: none;
+    }
 }
 
-.desktop {
-    display: none;
+@media (min-width: 1025px) {
+    .mobile {
+        display: none;
+    }
+    
+    .desktop {
+        display: block;
+    }
 }
+
 
 @import "../mobile/mobile.scss";
 

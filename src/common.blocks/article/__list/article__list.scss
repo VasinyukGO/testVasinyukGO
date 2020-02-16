@@ -1,15 +1,15 @@
 .article__list {
     margin: 0;
-    margin-top: 4.5%;
+    margin-top: 4.2%;
     padding: 0;
     padding-left: 0.2%;
 
     li {
         position: relative;
         list-style-type: none;
-        margin-bottom: 2.9%;
+        margin-bottom: 2.8%;
         padding-left: 4.4%;
-        font-size: 1vw;
+        font-size: 19.5px;
     }
 
     @for $i from 1 through 10 {
@@ -17,7 +17,7 @@
             content: "#{$i}";
             position: absolute;
             color: #3eb499;
-            font-size: 1.7vw;
+            font-size: 28px;
             left: 0;
             top: -30%;
         }
