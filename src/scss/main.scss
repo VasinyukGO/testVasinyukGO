@@ -2,6 +2,16 @@ body {
     margin: 0;
 }
 
+.mobile {
+    //display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+@import "../mobile/mobile.scss";
+
 @import "../common.blocks/body-background/body-background.scss";
 @import "../common.blocks/header-container/header-container.scss";
 @import "../common.blocks/main-container/main-container.scss";

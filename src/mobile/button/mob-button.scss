@@ -1,0 +1,16 @@
+.mob-button {
+    width: 100%;
+    min-width: 300px;
+    height: 17.8vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5.8% 5.7%;
+    margin-bottom: 12.5px;
+    border: none;
+    background-color: #ffffff;
+}
+
+@import "./__image/mob-button__image.scss";
+@import "./__text/mob-button__text.scss";
+@import "./__arrow/mob-button__arrow.scss";
