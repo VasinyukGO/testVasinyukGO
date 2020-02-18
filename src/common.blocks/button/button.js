@@ -26,9 +26,9 @@ export default function headerButton () {
             }
 
             document.querySelector('.body-background').style.backgroundImage = 'url(/bg2.c3adff3f.png)';
-            setTimeout(() => headerContainer.style.display = 'none', 1000);
-            setTimeout(() => mainContainer.style.display = 'block', 1000);
-            setTimeout(() => mainContainer.classList.add("main-container_animate"), 1010);
+            setTimeout(() => headerContainer.style.display = 'none', 800);
+            setTimeout(() => mainContainer.style.display = 'block', 850);
+            setTimeout(() => mainContainer.classList.add("main-container_animate"), 870);
 
             for (let h = 0; h < mainNavButtonArray.length; h++){
                 
