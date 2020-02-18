@@ -26,12 +26,12 @@ export default function mobileButton () {
                 
                 thisArticle.style.display = 'block';
                 thisToggleIcon.style.transform = 'rotate('+180+'deg)';
-                document.querySelector('.body-background').style.backgroundImage = 'none';                
+                document.querySelector('.body-background').classList.add("body-background_mob-bg");                
 
             } else {
                 thisArticle.style.display = 'none'
                 thisToggleIcon.style.transform = 'rotate('+0+'deg)';
-                document.querySelector('.body-background').style.backgroundImage = 'url(/bg1.fc5ebf54.png)';
+                document.querySelector('.body-background').classList.remove("body-background_mob-bg");
             }
         }
     });

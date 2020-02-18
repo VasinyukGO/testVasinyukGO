@@ -2,7 +2,6 @@
     width: 100vw;
     height: auto;
     min-height: 100vh;
-    background-color: #f3f2da;
     background-image: url(../uploads/bg1.png);
     background-size: cover;
     transition-property: background-image;
@@ -10,3 +9,6 @@
     transition-duration: 0.3s;
     transition-timing-function: linear;
 }
+
+@import "./_mob-bg/body-background_mob-bg.scss";
+@import "./_main-bg/body-background_main-bg.scss";

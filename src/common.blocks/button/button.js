@@ -25,10 +25,10 @@ export default function headerButton () {
                 eTargetChildNodes[a].classList.add("button_animate");
             }
 
-            document.querySelector('.body-background').style.backgroundImage = 'url(/bg2.c3adff3f.png)';
+            document.querySelector('.body-background').classList.add("body-background_main-bg");
             setTimeout(() => headerContainer.style.display = 'none', 800);
-            setTimeout(() => mainContainer.style.display = 'block', 850);
-            setTimeout(() => mainContainer.classList.add("main-container_animate"), 870);
+            setTimeout(() => mainContainer.style.display = 'block', 800);
+            setTimeout(() => mainContainer.classList.add("main-container_animate"), 820);
 
             for (let h = 0; h < mainNavButtonArray.length; h++){
                 
